@@ -3,6 +3,8 @@ body {
     color: #fff;
 }
 
+/**** NAVIGATION ******/
+
 .navbar {
     color: #fff;
     border-bottom: #008ed6 3px solid;
@@ -13,6 +15,7 @@ body {
     color: #fff;
 }
 
+/**** HOME SECTION ******/
 #home-section {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/img/home.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/home.jpg);
@@ -42,6 +45,16 @@ body {
 #home-section .fas {
     color: #008ed6;
     background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/**** EXPLORE SECTION ******/
+
+#explore-section .fas, 
+#share-section .fas {
+    background: #333;
+    color:#fff;
     padding: 5px;
     border-radius: 5px;
 }

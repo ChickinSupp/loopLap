@@ -7,15 +7,15 @@
     <link rel='stylesheet' href='css/style.css'>
     <title>Looplap</title>
 </head>
-<body>
+<body dat-spy="scroll" data-target="#main-nav" id="home">
 
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-sm bg-dark nav-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark nav-dark fixed-top" id="main-nav">
         <div class="container">
             <a href="index.html" class="navbar-brand nav-white">Loop Lab</a>
 
             <!-- something not working here for mobile button -->
-            <button class="navbar-toggler" data-toggle='collapse' data-target='#navbarCollapse'>
+            <button class="navbar-toggler" data-toggle='collapse' data-target='#navbarCollapse'> 
                <span class='navbar-toggler-icon'></span> 
             </button>
             <div class="collapse navbar-collapse" id='navbarCollapse'>
@@ -296,6 +296,7 @@
     </footer>
 
     <!-- CONTACT MODAL -->
+    <!-- DOES NOT WORK --FIX -->
     <div class="modal fade text-dark" id="contactModal">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -329,18 +330,12 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
     <script src="https://kit.fontawesome.com/ced596c5fc.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="js/scroll.js"></script>
+    
     <script>
         $('#year').text( new Date().getFullYear())
     </script>

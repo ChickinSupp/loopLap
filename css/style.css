@@ -12,3 +12,25 @@ body {
 .nav-white {
     color: #fff;
 }
+
+#home-section {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/img/home.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* #home-section .dark-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.7);
+} */
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
